@@ -20,7 +20,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=ujjwalg2611&show_icons=true&theme=dark&hide_border=false&include_all_commits=true&count_private=true
+          options: username=ujjwalg2611&show_icons=true&theme=dark&hide_border=false&count_private=true
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -28,7 +28,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=ujjwalg2611&theme=dark&hide_border=false&layout=compact&include_all_commits=true&count_private=true
+          options: username=ujjwalg2611&theme=dark&hide_border=false&layout=compact&count_private=true
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
