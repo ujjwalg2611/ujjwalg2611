@@ -75,12 +75,12 @@ CSE @ NIT Jalandhar | Full Stack Developer | Competitive Programmer (LeetCode, C
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="./assets/github-stats.svg" alt="Ujjwal's GitHub Stats" width="49%" />
-  <img src="./assets/github-streak.svg" alt="Ujjwal's GitHub Streak" width="49%" />
+  <img src="./profile/stats.svg" alt="Ujjwal's GitHub Stats" width="49%" />
+  <img src="./profile/streak.svg" alt="Ujjwal's GitHub Streak" width="49%" />
 </p>
 
 <p align="center">
-  <img src="./assets/top-langs.svg" alt="Ujjwal's Most Used Languages" width="49%" />
+  <img src="./profile/top-langs.svg" alt="Ujjwal's Most Used Languages" width="49%" />
 </p>
 
 ## 🏆 GitHub Trophies
