@@ -72,6 +72,17 @@ CSE @ NIT Jalandhar | Full Stack Developer | Competitive Programmer (LeetCode, C
   and the workflow refreshes them every 6 hours and on every push.
 -->
 
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="./assets/github-stats.svg" alt="Ujjwal's GitHub Stats" width="49%" />
+  <img src="./assets/github-streak.svg" alt="Ujjwal's GitHub Streak" width="49%" />
+</p>
+
+<p align="center">
+  <img src="./assets/top-langs.svg" alt="Ujjwal's Most Used Languages" width="49%" />
+</p>
+
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=ujjwalg2611&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
