@@ -20,17 +20,32 @@ jobs:
       - name: Fetch GitHub Stats card
         run: |
           curl -s "https://github-readme-stats.vercel.app/api?username=ujjwalg2611&show_icons=true&theme=dark&hide_border=false&count_private=true&include_all_commits=true" \
-            -o profile/stats.svg
+            -o /tmp/stats.svg
+          if head -c 100 /tmp/stats.svg | grep -q "<svg"; then
+            cp /tmp/stats.svg profile/stats.svg
+          else
+            echo "::warning::GitHub Stats card fetch did not return an SVG (upstream likely paused/rate-limited) — keeping previous file"
+          fi
 
       - name: Fetch Top Languages card
         run: |
           curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=ujjwalg2611&theme=dark&hide_border=false&layout=compact&count_private=true&langs_count=8" \
-            -o profile/top-langs.svg
+            -o /tmp/top-langs.svg
+          if head -c 100 /tmp/top-langs.svg | grep -q "<svg"; then
+            cp /tmp/top-langs.svg profile/top-langs.svg
+          else
+            echo "::warning::Top Languages card fetch did not return an SVG (upstream likely paused/rate-limited) — keeping previous file"
+          fi
 
       - name: Fetch Streak Stats card
         run: |
           curl -s "https://streak-stats.demolab.com/?user=ujjwalg2611&theme=dark&hide_border=false" \
-            -o profile/streak.svg
+            -o /tmp/streak.svg
+          if head -c 100 /tmp/streak.svg | grep -q "<svg"; then
+            cp /tmp/streak.svg profile/streak.svg
+          else
+            echo "::warning::Streak Stats card fetch did not return an SVG — keeping previous file"
+          fi
 
       - name: Commit updated cards
         run: |
