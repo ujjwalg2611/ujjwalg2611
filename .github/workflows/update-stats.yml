@@ -19,7 +19,7 @@ jobs:
 
       - name: Fetch GitHub Stats card
         run: |
-          curl -s "https://github-stats-extended.vercel.app/api?username=ujjwalg2611&show_icons=true&theme=dark&hide_border=false&count_private=true&include_all_commits=true" \
+          curl -s "https://github-stats-extended.vercel.app/api?username=ujjwalg2611&show_icons=true&theme=dark&rank_icon=github&include_all_commits=true" \
             -o /tmp/stats.svg
           if head -c 100 /tmp/stats.svg | grep -q "<svg"; then
             cp /tmp/stats.svg profile/stats.svg
@@ -29,7 +29,7 @@ jobs:
 
       - name: Fetch Top Languages card
         run: |
-          curl -s "https://github-stats-extended.vercel.app/api/top-langs/?username=ujjwalg2611&theme=dark&hide_border=false&layout=compact&count_private=true&langs_count=8" \
+          curl -s "https://github-stats-extended.vercel.app/api/top-langs?username=ujjwalg2611&theme=dark&hide_border=false&layout=compact&count_private=true&langs_count=6" \
             -o /tmp/top-langs.svg
           if head -c 100 /tmp/top-langs.svg | grep -q "<svg"; then
             cp /tmp/top-langs.svg profile/top-langs.svg
