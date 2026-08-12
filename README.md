@@ -72,6 +72,9 @@ CSE @ NIT Jalandhar | Full Stack Developer | Competitive Programmer (LeetCode, C
   and the workflow refreshes them every 6 hours and on every push.
 -->
 
+## 🐍 Contribution Snake
+![Snake animation](https://raw.githubusercontent.com/ujjwalg2611/ujjwalg2611/output/github-snake.svg)
+
 ## 📊 GitHub Stats
 
 <p align="center">
