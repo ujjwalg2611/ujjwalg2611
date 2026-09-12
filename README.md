@@ -3,7 +3,7 @@ CSE @ NIT Jalandhar | Full Stack Developer | Competitive Programmer (LeetCode, C
 
 
 ## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ujjwal-gupta-5947b5321/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:ujjwalgupta2611@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ujjwal-gupta-5947b5321/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:ujjwalgupta2611@gmail.com) [![Twitter](https://img.shields.io/badge/Twitter-%23000000.svg?logo=x&logoColor=white)](https://x.com/ujjwalg2611) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=instagram&logoColor=white)](https://www.instagram.com/ujjwal_g2611/) [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?logo=discord&logoColor=white)](https://discord.com/channels/@me)
 
 ## 💻 Tech Stack
 
