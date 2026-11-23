@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">UJJWAL GUPTA&#39;s GitHub Stats, Rank: C+</title>
-        <desc id="descId">Total Stars Earned: 14, Total Commits  : 1010, Total PRs: 0, Total Issues: 0, Contributed to (last year): 1</desc>
+        <desc id="descId">Total Stars Earned: 14, Total Commits  : 1014, Total PRs: 0, Total Issues: 0, Contributed to (last year): 1</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 208.4221751760581;
+        stroke-dashoffset: 208.3645871960558;
       }
     }
   
